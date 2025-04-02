@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.default_subspec = 'full-gpl-lts'
 
   s.dependency          'Flutter'
-  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
   s.subspec 'min' do |ss|
     ss.source_files         = 'Classes/**/*'
