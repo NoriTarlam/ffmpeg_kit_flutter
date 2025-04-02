@@ -2,7 +2,7 @@
 
 # iOS 框架下载解压
 #IOS_URL="https://github.com/hellohejinyu/ffmpeg_kit_flutter_full_gpl/releases/download/v5.1.LTS/ffmpeg-kit-full-gpl-5.1.LTS-ios-framework.zip"
-IOS_URL="https://www.wity.jp/ffmpegkit/v5.1lts/ffmpeg-kit-full-gpl-5.1.LTS-ios-framework.zip"
+IOS_URL="https://www.wity.jp/ffmpegkit/v6.0/ffmpeg-kit-full-gpl-6.0-ios-xcframework.zip"
 
 mkdir -p Frameworks
 curl -L $IOS_URL -o frameworks.zip
