@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'ffmpeg_kit_flutter_full_gpl'
+  s.name             = 'ffmpeg_kit_flutter'
   s.version = '5.1.0.LTS'
   s.summary          = 'FFmpeg Kit for Flutter'
   s.description      = 'A Flutter plugin for running FFmpeg and FFprobe commands.'
