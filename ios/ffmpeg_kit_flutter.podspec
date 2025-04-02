@@ -135,7 +135,7 @@ Pod::Spec.new do |s|
     
     ss.ios.frameworks = 'AudioToolbox', 'CoreMedia'
     ss.libraries = 'z', 'bz2', 'c++', 'iconv'
-    ss.ios.deployment_target = '12.1'
+    ss.ios.deployment_target = '14'
     
     s.prepare_command = <<-CMD
       if [ ! -d "./Frameworks" ]; then
